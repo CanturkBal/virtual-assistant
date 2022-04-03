@@ -228,7 +228,7 @@ if __name__ =="__main__":
         elif "covid" in query:
             covid()
         elif "open code" in query:
-            codepath = "C:\\Users\\cantu\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codepath = "C:\\Users\\name\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"#enter the users folders name in the 'name' part
             os.startfile(codepath)
         elif "open document" in query:
             os.system("explorer C://{}".format(query.replace("Open",'')))
