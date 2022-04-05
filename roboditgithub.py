@@ -255,7 +255,6 @@ if __name__ =="__main__":
             roll()
         elif "command" == query:
             speak("wikipedia") #allows you to search thing on wikipedia
-            speak("message")#writes a whatsaap message to someone you would like
             speak("time")#says the current time
             speak("date")#says the current date
             speak("offline")#closes robodir
